@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    margin: 0;
+}
+
+.bulb-container {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    /* border: 7px solid black; */
+    height: 40%;
+}
+
+.bulb {
+    /* border: 2px solid black; */
+    width: 150px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+}
+.bulb:hover {
+    transform: scale(1.2);
+
+}
+h1{
+    -webkit-text-fill-color:hotpink;
+}
+.logo1{
+	max-height: 100%;
+	max-width: 100%;
+	width:150px;
+	height:150px;
+	background-size: cover;
+	float: left;
+}
